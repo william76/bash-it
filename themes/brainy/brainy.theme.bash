@@ -90,7 +90,7 @@ ____brainy_bottom() {
 ##############
 
 ___brainy_prompt_user_info() {
-	color=$bold_blue
+	color=$bold_purple
 	if [ "${THEME_SHOW_SUDO}" == "true" ]; then
 		if sudo -vn 1> /dev/null 2>&1; then
 			color=$bold_red
